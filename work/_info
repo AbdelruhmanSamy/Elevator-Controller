@@ -1,0 +1,226 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/abdelruhman/College Data/Year3/Arch/elevator_controller
+Eclock
+Z1 w1732564748
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 278
+R0
+Z5 8/home/abdelruhman/College Data/Year3/Arch/elevator_controller/clock.vhd
+Z6 F/home/abdelruhman/College Data/Year3/Arch/elevator_controller/clock.vhd
+l0
+L5 1
+V5Z??ihL;6eo:Pb;g@^]iS0
+!s100 hUTHQYT7EP;f`9h:ICloY1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1732568743
+!i10b 1
+Z9 !s108 1732568743.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdelruhman/College Data/Year3/Arch/elevator_controller/clock.vhd|
+Z11 !s107 /home/abdelruhman/College Data/Year3/Arch/elevator_controller/clock.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 5 clock 0 22 5Z??ihL;6eo:Pb;g@^]iS0
+!i122 278
+l17
+L13 22
+V3EjG>Lb0]PLSZ[GMPl;833
+!s100 Id4XAWi@G^1X0?ZPMORok1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eintegrated_model
+Z14 w1732568485
+R2
+R3
+R4
+!i122 277
+R0
+Z15 8/home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd
+Z16 F/home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd
+l0
+L5 1
+V_K]cDANIRFkc<4d4X^OI^2
+!s100 6CUbUV6a>4Yj]5z75bKlG2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd|
+Z18 !s107 /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+DEx4 work 16 integrated_model 0 22 _K]cDANIRFkc<4d4X^OI^2
+!i122 277
+l66
+L20 58
+VT4bF8zQDhM@ajg:0AQ9;91
+!s100 _aQiKVIQI3V7@nchidfST0
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Ereqeust_resolver
+Z19 w1732568709
+R2
+R3
+R4
+!i122 279
+R0
+Z20 8/home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+Z21 F/home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+l0
+L5 1
+V=;HBC^bERO83K8GNhcWho3
+!s100 BB[aTWQ6S`5PR39lD=N]:3
+R7
+32
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd|
+Z23 !s107 /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+R4
+DEx4 work 16 reqeust_resolver 0 22 =;HBC^bERO83K8GNhcWho3
+!i122 279
+l23
+L21 95
+VIMJo23S2::5<5V_`U@l@G2
+!s100 P^45]SM_gBoVh1gomN:hX2
+R7
+32
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Etb_integrated_model
+Z24 w1732562390
+R2
+R3
+R4
+!i122 280
+R0
+Z25 8/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd
+Z26 F/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd
+l0
+L5 1
+VUj:n==7iWF4DGWg2:C;0d0
+!s100 O7UMV62;BnkNBJ<m^^h`W0
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd|
+Z28 !s107 /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 19 tb_integrated_model 0 22 Uj:n==7iWF4DGWg2:C;0d0
+!i122 280
+l36
+L8 140
+VkNFb;MGJ6A?dO>Oe8`6K;3
+!s100 Z2??O7^B^=`^FNY[>TYl_0
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Eunit_controller
+Z29 w1732568432
+R2
+R3
+R4
+!i122 281
+R0
+Z30 8/home/abdelruhman/College Data/Year3/Arch/elevator_controller/unit_controller.vhd
+Z31 F/home/abdelruhman/College Data/Year3/Arch/elevator_controller/unit_controller.vhd
+l0
+L5 1
+VgZ6kGfkXZ8EGhTCcHHfDe2
+!s100 E5fbERgMHahRZXlnE5AI;2
+R7
+32
+Z32 !s110 1732568744
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/abdelruhman/College Data/Year3/Arch/elevator_controller/unit_controller.vhd|
+Z34 !s107 /home/abdelruhman/College Data/Year3/Arch/elevator_controller/unit_controller.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+Z35 DEx4 work 15 unit_controller 0 22 gZ6kGfkXZ8EGhTCcHHfDe2
+!i122 281
+l21
+Z36 L18 101
+Z37 VD49`HKlni7TTR1neXMiV]3
+Z38 !s100 R>E8_jR_ikKS:=TLJ_g3[2
+R7
+32
+R32
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13

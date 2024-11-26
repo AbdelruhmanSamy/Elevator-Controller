@@ -1,0 +1,20 @@
+Unfortunatlly, testbench is not working :(
+So, you can test it using a do file "tb_integrated_model.do"
+
+Notes:
+- we take a slow clock as input, because our "clock" module is not working :(
+
+How to test our elevator:
+- Set the runtime in modelsim to 3 ns
+- Run the do file
+- Set the runtime to 100 ns
+- run simulation
+- check output
+
+test case is
+floor 3 request
+floor 1 request -> when moving from floor 1 to 2
+floor 7 request -> before reaching floor 3
+
+output is
+move from floor 0 to 3, open door, go to floor 7, open the door, go down to floor 1, open door, then stay idle 

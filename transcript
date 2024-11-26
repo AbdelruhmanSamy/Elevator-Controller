@@ -1,0 +1,2209 @@
+# ERROR: No extended dataflow license exists
+# vsim . 
+# Start time: 14:18:09 on Nov 25,2024
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 14:18:10 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Loading project elevator
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd failed with 1 errors.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd failed with 1 errors.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of unit_controller.vhd was successful.
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 14:20:46 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 14:22:02 on Nov 25,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 10
+# vsim work.integrated_model 
+# Start time: 14:22:02 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+quit -sim
+# End time: 14:24:18 on Nov 25,2024, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 1
+# Compile of tb_integrated_model.vhd failed with 37 errors.
+# Compile of tb_integrated_model.vhd failed with 33 errors.
+# Compile of tb_integrated_model.vhd was successful.
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 14:32:12 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_integrated_model/*
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/tb_integrated_model/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3421) Value -7 is out of range 0 to 9.
+#    Time: 2 us  Iteration: 1  Process: /tb_integrated_model/uut/line__68 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd Line: 68
+# Fatal error in Architecture rtl at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd line 68
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+quit -sim
+# End time: 14:40:33 on Nov 25,2024, Elapsed time: 0:08:21
+# Errors: 1, Warnings: 6
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 14:40:47 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+do integrated_model.do
+# Cannot open macro file: integrated_model.do
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 14:41:09 on Nov 25,2024, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 14:41:09 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+do tb_integrated_model.do
+# End time: 14:42:25 on Nov 25,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 14:42:25 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run -continue
+do tb_integrated_model.do
+# End time: 14:43:52 on Nov 25,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 14:43:52 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/integrated_model/u4/*
+run
+do tb_integrated_model.do
+# End time: 14:45:08 on Nov 25,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 14:45:08 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 15:51:06 on Nov 25,2024, Elapsed time: 1:05:58
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 15:51:06 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 15:52:21 on Nov 25,2024, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 15:52:21 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 15:54:09 on Nov 25,2024, Elapsed time: 0:01:48
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 15:54:09 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do tb_integrated_model.do
+# End time: 15:54:57 on Nov 25,2024, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 15:54:57 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+do tb_integrated_model.do
+# End time: 16:00:28 on Nov 25,2024, Elapsed time: 0:05:31
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 16:00:28 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Loading work.clock(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 16:05:36 on Nov 25,2024, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 16:05:36 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** UI-Msg: (vish-4014) No objects found matching '/integrated_model/u4/*'.
+# Error in macro ./tb_integrated_model.do line 2
+# ** UI-Msg: (vish-4014) No objects found matching '/integrated_model/u4/*'.
+#     while executing
+# "add wave -position insertpoint sim:/integrated_model/u4/*"
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 16:06:19 on Nov 25,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 16:06:19 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do tb_integrated_model.do
+# End time: 16:10:49 on Nov 25,2024, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 16:10:49 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+do tb_integrated_model.do
+# End time: 16:12:36 on Nov 25,2024, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 16:12:36 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+quit -sim
+# End time: 16:15:32 on Nov 25,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 16:16:49 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 16:16:50 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 16:16:51 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 16:16:52 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 16:16:52 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 16:16:54 on Nov 25,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 16:16:54 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 16:16:55 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 16:17:17 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 16:17:25 on Nov 25,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 3
+# vsim work.integrated_model 
+# Start time: 16:17:25 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 16:18:19 on Nov 25,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 16:18:19 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd failed with 2 errors.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd failed with 1 errors.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd failed with 2 errors.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 16:37:35 on Nov 25,2024, Elapsed time: 0:19:16
+# Errors: 0, Warnings: 5
+# vsim work.integrated_model 
+# Start time: 16:37:35 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 16:40:34 on Nov 25,2024, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 16:40:34 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 18:29:13 on Nov 25,2024, Elapsed time: 1:48:39
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 18:29:13 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 18:30:48 on Nov 25,2024, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 18:30:48 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 18:31:46 on Nov 25,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 18:31:46 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 19:52:02 on Nov 25,2024, Elapsed time: 1:20:16
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 19:52:02 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 19:53:05 on Nov 25,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 19:53:05 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 19:53:56 on Nov 25,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 19:53:56 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:04:20 on Nov 25,2024, Elapsed time: 0:10:24
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 20:04:20 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:05:49 on Nov 25,2024, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 20:05:49 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:16:10 on Nov 25,2024, Elapsed time: 0:10:21
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:16:10 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:18:38 on Nov 25,2024, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:18:38 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:21:47 on Nov 25,2024, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:21:47 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:25:10 on Nov 25,2024, Elapsed time: 0:03:23
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:25:10 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:26:23 on Nov 25,2024, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 20:26:23 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:36:18 on Nov 25,2024, Elapsed time: 0:09:55
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:36:18 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:39:14 on Nov 25,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:39:14 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:42:35 on Nov 25,2024, Elapsed time: 0:03:21
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 20:42:35 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:43:22 on Nov 25,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 3
+# vsim work.integrated_model 
+# Start time: 20:43:22 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd failed with 1 errors.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:45:01 on Nov 25,2024, Elapsed time: 0:01:39
+# Errors: 0, Warnings: 4
+# vsim work.integrated_model 
+# Start time: 20:45:01 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:45:29 on Nov 25,2024, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:45:29 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:48:25 on Nov 25,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 20:48:25 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:50:59 on Nov 25,2024, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:50:59 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:55:46 on Nov 25,2024, Elapsed time: 0:04:47
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:55:46 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:56:54 on Nov 25,2024, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:56:54 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 20:57:30 on Nov 25,2024, Elapsed time: 0:00:36
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 20:57:30 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 21:04:01 on Nov 25,2024, Elapsed time: 0:06:31
+# Errors: 0, Warnings: 1
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 21:04:10 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 21:04:18 on Nov 25,2024, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 1
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 21:04:21 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+quit -sim
+# End time: 21:04:54 on Nov 25,2024, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:05:15 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:05:15 on Nov 25,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 21:05:16 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/integrated_model/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+run
+run
+run
+run
+vsim work.integrated_model
+# End time: 21:06:06 on Nov 25,2024, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 21:06:06 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/integrated_model/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+run
+run
+quit -sim
+# End time: 21:06:27 on Nov 25,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 2
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:06:30 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:06:32 on Nov 25,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:06:34 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:06:35 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 21:06:58 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/integrated_model/*
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /integrated_model
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.tb_integrated_model
+# End time: 21:08:09 on Nov 25,2024, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 8
+# vsim work.tb_integrated_model 
+# Start time: 21:08:10 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:08:12 on Nov 25,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:11:03 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:11:03 on Nov 25,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:11:04 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:11:04 on Nov 25,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:11:04 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# ** Error: (vsim-3732) No default binding for component instance 'uut'.
+#    The following component port is not on the entity:
+#           clk_slow_sig
+#    Time: 0 ps  Iteration: 0  Instance: /tb_integrated_model/uut File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.vhd Line: 54
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# Error loading design
+# End time: 21:11:05 on Nov 25,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd failed with 1 errors.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 1 error.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.tb_integrated_model
+# vsim work.tb_integrated_model 
+# Start time: 21:14:22 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_integrated_model(behavior)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+add wave -position insertpoint sim:/tb_integrated_model/*
+run
+run
+run
+run
+run
+run
+# ** Error: Test Case 1 Failed: Elevator did not reach floor 3
+#    Time: 600 ns  Iteration: 0  Instance: /tb_integrated_model
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Error: Test Case 2 Failed: Elevator did not reach floor 7
+#    Time: 1500 ns  Iteration: 0  Instance: /tb_integrated_model
+run
+run
+run
+run
+run
+# ** Error: Test Case 3 Failed: Elevator did not reach floor 2
+#    Time: 2 us  Iteration: 0  Instance: /tb_integrated_model
+# ** Fatal: (vsim-3421) Value -7 is out of range 0 to 9.
+#    Time: 2 us  Iteration: 1  Process: /tb_integrated_model/uut/line__68 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd Line: 68
+# Fatal error in Architecture rtl at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd line 68
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd failed with 6 errors.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 6 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+add wave -position insertpoint sim:/tb_integrated_model/*
+add wave -position insertpoint sim:/tb_integrated_model/*
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/tb_integrated_model/uut/*
+add wave -position insertpoint sim:/tb_integrated_model/*
+add wave -position insertpoint sim:/tb_integrated_model/uut/*
+run
+# Cannot continue because of fatal error.
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/integrated_model.vhd 68 Architecture rtl
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.integrated_model
+# End time: 21:55:50 on Nov 25,2024, Elapsed time: 0:41:28
+# Errors: 4, Warnings: 8
+# vsim work.integrated_model 
+# Start time: 21:55:50 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 21:56:37 on Nov 25,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 21:56:37 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 21:58:20 on Nov 25,2024, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 21:58:20 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:05:31 on Nov 25,2024, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:05:31 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Fatal: (vsim-3734) Index value 10 is out of range 9 downto 0.
+#    Time: 100010 ps  Iteration: 0  Process: /integrated_model/u2/line__24 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+# Fatal error in ForLoop loop at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd line 49
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd failed with 9 errors.
+# 5 compiles, 1 failed with 9 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd failed with 4 errors.
+# 5 compiles, 1 failed with 4 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd failed with 1 errors.
+# 5 compiles, 1 failed with 1 error.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:16:27 on Nov 25,2024, Elapsed time: 0:10:56
+# Errors: 1, Warnings: 5
+# vsim work.integrated_model 
+# Start time: 22:16:27 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Fatal: (vsim-3734) Index value 10 is out of range 9 downto 0.
+#    Time: 100010 ps  Iteration: 0  Process: /integrated_model/u2/line__24 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+# Fatal error in ForLoop loop at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd line 49
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:23:26 on Nov 25,2024, Elapsed time: 0:06:59
+# Errors: 1, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:23:26 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Fatal: (vsim-3734) Index value 10 is out of range 9 downto 0.
+#    Time: 100010 ps  Iteration: 0  Process: /integrated_model/u2/line__24 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+# Fatal error in ForLoop loop at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd line 49
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:27:39 on Nov 25,2024, Elapsed time: 0:04:13
+# Errors: 1, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:27:39 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# ** Fatal: (vsim-3734) Index value 10 is out of range 9 downto 0.
+#    Time: 100010 ps  Iteration: 0  Process: /integrated_model/u2/line__24 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+# Fatal error in ForLoop loop at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd line 49
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+quit -sim
+# End time: 22:28:17 on Nov 25,2024, Elapsed time: 0:00:38
+# Errors: 1, Warnings: 1
+vsim work.integrated_model
+# vsim work.integrated_model 
+# Start time: 22:28:21 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:28:36 on Nov 25,2024, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 1
+# vsim work.integrated_model 
+# Start time: 22:28:36 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# ** Fatal: (vsim-3734) Index value 10 is out of range 9 downto 0.
+#    Time: 100010 ps  Iteration: 0  Process: /integrated_model/u2/line__24 File: /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd
+# Fatal error in ForLoop loop at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd line 49
+# 
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/abdelruhman/College Data/Year3/Arch/elevator_controller/request_resolver.vhd 49 ForLoop loop
+# 
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd failed with 2 errors.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 1 failed with 2 errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:36:41 on Nov 25,2024, Elapsed time: 0:08:05
+# Errors: 1, Warnings: 4
+# vsim work.integrated_model 
+# Start time: 22:36:41 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:39:39 on Nov 25,2024, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:39:39 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:40:54 on Nov 25,2024, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:40:54 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 22:52:44 on Nov 25,2024, Elapsed time: 0:11:50
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 22:52:44 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+run
+run
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 23:01:34 on Nov 25,2024, Elapsed time: 0:08:50
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 23:01:34 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# Compile of integrated_model.vhd was successful.
+# Compile of clock.vhd was successful.
+# Compile of request_resolver.vhd was successful.
+# Compile of tb_integrated_model.vhd was successful.
+# Compile of unit_controller.vhd was successful.
+# 5 compiles, 0 failed with no errors.
+do {/home/abdelruhman/College Data/Year3/Arch/elevator_controller/tb_integrated_model.do}
+# End time: 23:05:47 on Nov 25,2024, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 2
+# vsim work.integrated_model 
+# Start time: 23:05:47 on Nov 25,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.integrated_model(rtl)
+# Loading work.clock(behavior)
+# Loading work.reqeust_resolver(behaviour)
+# Loading work.unit_controller(behavior)
+# WARNING: No extended dataflow license exists
+# End time: 23:11:27 on Nov 25,2024, Elapsed time: 0:05:40
+# Errors: 0, Warnings: 1
